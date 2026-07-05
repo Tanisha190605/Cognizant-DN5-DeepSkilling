@@ -1,98 +1,91 @@
 # Cognizant DN 5.0 Deep Skilling Program
 
-## Week 1 – Engineering Concepts
+# Week 2 – Programming Language
 
-### Overview
+## Overview
 
-This repository contains the hands-on exercises and implementations completed as part of **Week 1 – Engineering Concepts** of the **Cognizant DN 5.0 Deep Skilling Program**.
+This repository contains the hands-on exercises and implementations completed as part of **Week 2 – Programming Language** of the **Cognizant DN 5.0 Deep Skilling Program**.
 
-The primary objective of this week is to strengthen software engineering fundamentals through the study of **Design Patterns**, **SOLID Principles**, and **Data Structures & Algorithms** using Java.
+The objective of this week is to strengthen programming fundamentals using **PL/SQL** and to understand **Test-Driven Development (TDD)** through **JUnit 5** and **Mockito**. These exercises focus on writing efficient database programs, implementing unit tests, and developing reliable and maintainable Java applications.
 
 ---
 
 ## Topics Covered
 
-### 1. Design Patterns and Principles
+### 1. PL/SQL Programming
 
-#### SOLID Principles
+#### Database Programming Concepts
 
-* Single Responsibility Principle (SRP)
-* Open/Closed Principle (OCP)
-* Liskov Substitution Principle (LSP)
-* Interface Segregation Principle (ISP)
-* Dependency Inversion Principle (DIP)
+* Variables and Constants
+* Conditional Statements
+* Loops
+* Cursors
+* Stored Procedures
+* Functions
+* Packages
+* Exception Handling
+* Triggers
 
-#### Design Patterns
+#### Hands-on Exercises
 
-* Singleton Pattern
-* Factory Method Pattern
-* Builder Pattern
-* Adapter Pattern
-* Decorator Pattern
-* Proxy Pattern
-* Observer Pattern
-* Strategy Pattern
-* Command Pattern
-* MVC Pattern
-* Dependency Injection
+* Basic PL/SQL Programs
+* Control Flow Statements
+* Stored Procedures
+* Functions
+* Cursors
+* Exception Handling
+* Triggers
+* Database Programming Practice Questions
 
 ---
 
-### 2. Data Structures and Algorithms
+### 2. Test-Driven Development (TDD) using JUnit 5 and Mockito
 
-#### Algorithm Analysis
+#### JUnit 5
 
-* Time Complexity
-* Space Complexity
-* Big O Notation
+* Introduction to Unit Testing
+* Test Classes and Test Methods
+* Assertions
+* Test Fixtures
+* Parameterized Tests
+* Lifecycle Annotations
 
-#### Data Structures
+#### Mockito
 
-* Arrays
-* Linked Lists
+* Mock Objects
+* Stubbing Methods
+* Verifying Interactions
+* Dependency Mocking
+* Unit Testing with Mockito
 
-#### Searching Algorithms
+#### Hands-on Exercises
 
-* Linear Search
-* Binary Search
-
-#### Sorting Algorithms
-
-* Bubble Sort
-* Quick Sort
-
-#### Recursion
-
-* Recursive Algorithms and Problem Solving
+* Basic Testing Exercises
+* Assertion Exercises
+* Arrange-Act-Assert Pattern
+* Mocking Dependencies
+* Unit Testing using Mockito
 
 ---
 
 ## Folder Structure
 
 ```text
-Week-1-Engineering-Concepts
+Week-2-Programming-Language
 │
-├── Design-Patterns-and-Principles
-│   ├── Exercise-1-SingletonPattern
-│   ├── Exercise-2-FactoryMethodPattern
-│   ├── Exercise-3-BuilderPattern
-│   ├── Exercise-4-AdapterPattern
-│   ├── Exercise-5-DecoratorPattern
-│   ├── Exercise-6-ProxyPattern
-│   ├── Exercise-7-ObserverPattern
-│   ├── Exercise-8-StrategyPattern
-│   ├── Exercise-9-CommandPattern
-│   ├── Exercise-10-MVCPattern
-│   └── Exercise-11-DependencyInjection
+├── PLSQL-Programming
+│   ├── Exercise-1
+│   ├── Exercise-2
+│   ├── Exercise-3
+│   ├── ...
+│   └── Additional Practice Questions
 │
-└── Data-Structures-and-Algorithms
-    ├── Exercise-1-InventoryManagement
-    ├── Exercise-2-ECommerceSearchFunction
-    ├── Exercise-3-SortingCustomerOrders
-    ├── Exercise-4-EmployeeManagementSystem
-    ├── Exercise-5-TaskManagementSystem
-    ├── Exercise-6-LibraryManagementSystem
-    └── Exercise-7-FinancialForecasting
+└── TDD using JUnit5 and Mockito
+    ├── Basic Testing Exercises
+    ├── JUnit Exercises
+    ├── Assertion Exercises
+    ├── Mockito Exercises
+    └── Unit Testing Examples
 ```
 
 ---
@@ -101,20 +94,24 @@ Week-1-Engineering-Concepts
 
 Through these exercises, I gained practical experience in:
 
-* Applying SOLID principles to create maintainable software.
-* Implementing industry-standard design patterns.
-* Understanding algorithm efficiency using Big O notation.
-* Working with arrays and linked lists.
-* Implementing searching and sorting algorithms.
-* Analyzing time and space complexity.
-* Solving problems using recursion.
-* Developing scalable and structured Java applications.
+* Writing efficient PL/SQL programs.
+* Developing stored procedures, functions, and triggers.
+* Handling exceptions in database applications.
+* Understanding Test-Driven Development (TDD).
+* Writing unit tests using JUnit 5.
+* Using assertions to validate program behavior.
+* Creating mock objects with Mockito.
+* Building reliable and maintainable Java applications through automated testing.
 
 ---
 
 ## Technologies Used
 
 * Java
+* PL/SQL
+* Oracle Database
+* JUnit 5
+* Mockito
 * IntelliJ IDEA / VS Code
 * Git
 * GitHub
